@@ -1,5 +1,7 @@
 # API de Gerenciamento de Produtos
 
+[![Java CI com Maven](https://github.com/profdiegoaugusto/api-produtos-springboot/actions/workflows/maven-build.yml/badge.svg)](https://github.com/profdiegoaugusto/api-produtos-springboot/actions/workflows/maven-build.yml)
+
 O objetivo deste repositório é apresentar um exemplo de APIs REST usando Java Spring Boot e Maven, bem como a implementação de testes unitários, testes de integração e integração contínua com GitHub Actions.
 
 ## Objetivo do Projeto
