@@ -18,6 +18,7 @@ jobs:
         run: mvn --batch-mode --update-snapshots clean package -DskipTests=true
 
   unit-test:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -30,6 +31,7 @@ jobs:
         run: mvn test
 
   integration-test:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
